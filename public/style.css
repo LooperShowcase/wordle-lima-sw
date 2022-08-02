@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(241, 232, 189);
+  text-align: center;
+  font-family: monospace;
+  font-size: x-large;
+}
+.game {
+  width: 100%;
+}
+.word {
+  display: flex;
+  justify-content: center;
+}
+.char {
+  height: 10vh;
+  width: 5vw;
+  border: 5px rgb(0, 0, 0) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+  border-radius: 100px;
+  font-size: 30px;
+}
